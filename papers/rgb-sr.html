@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>RGB Super-Resolution for Multispectral Remote Sensing Images - Haider Ali</title>
+    <meta name="description" content="IGARSS 2025 paper on Sentinel-2 RGB super-resolution with an enhanced SWIN2SR transformer, non-local sparse attention and high-frequency preserving blocks.">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/pygment_trac.css">
+</head>
+<body>
+    <div class="wrapper">
+        <p><a href="../index.html">&larr; Haider Ali</a></p>
+        <h1 style="font-size:28px;">RGB Super-Resolution for Multispectral Remote Sensing Images</h1>
+        <p><b><b>Haider Ali</b>, Fabian Stahl, Maxim Dolgich, Ulrich Schwanecke, Adrian Ulges, Faisal Shafait</b><br>
+        NUST, SEECS, Islamabad, Pakistan &middot; RheinMain University of Applied Sciences, Wiesbaden, Germany<br>
+        <i>IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2025, Brisbane, Australia (Poster), pp. 3885&ndash;3889</i></p>
+        <p>[<a href="RGB_SR_IGARSS2025.pdf">PDF</a>] [<a href="https://doi.org/10.1109/IGARSS55030.2025.11242707">DOI</a>] [<a href="https://github.com/Ali12114/Remote-Sensing-SR">Code</a>]</p>
+        <h2>Abstract</h2>
+        <p>The use of satellite remote sensing images is becoming increasingly popular due to the decreasing costs and high frequency of acquisition. However, it is often constrained by the low resolution (LR) of the data. To address this limitation, we propose an enhanced SWIN2SR transformer-based model for the super-resolution (SR) reconstruction of RGB images given Sentinel-2 (S2) satellite data, leveraging both its spatial and spectral resolution. Our model combines the SWIN2SR Residual SWIN Transformer Block (RSTB) with Non-Local Sparse Attention (NLSA) blocks and High Preserving Block (HPB) for high-quality SR reconstruction. The NLSA block enhances the model's ability to capture long-range dependencies, while the HPB focuses on preserving high-frequency information for superior reconstruction quality. We also introduce a novel combination of loss functions that increases texture preservation, structural integrity, and overall perceptual quality. Experimental results with multispectral S2 data show that our model achieves the best performance on perceptual metrics (LPIPS) and is perceived as superior by survey participants.</p>
+        <p><img src="../assets/img/RGB Architecture.png" style="max-width:100%;" alt="Architecture figure"></p>
+        <h2>BibTeX</h2>
+        <pre style="white-space:pre-wrap;font-size:12px;">@inproceedings{ali2025rgbsr,
+  author    = {Ali, Haider and Stahl, Fabian and Dolgich, Maxim and Schwanecke, Ulrich and Ulges, Adrian and Shafait, Faisal},
+  title     = {{RGB} Super-Resolution for Multispectral Remote Sensing Images},
+  booktitle = {IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium},
+  year      = {2025},
+  pages     = {3885--3889},
+  doi       = {10.1109/IGARSS55030.2025.11242707}
+}</pre>
+        <p style="color:gray;font-size:13px;">The PDF is the authors' manuscript. &copy; 2025 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. The definitive version is available through the DOI link above.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Non-Local Sparse Attention Based Multi-Image Super-Resolution - Haider Ali</title>
+    <meta name="description" content="IGARSS 2026 paper on multi-image super-resolution of satellite imagery with non-local sparse attention in the transformer encoder.">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/pygment_trac.css">
+</head>
+<body>
+    <div class="wrapper">
+        <p><a href="../index.html">&larr; Haider Ali</a></p>
+        <h1 style="font-size:28px;">Non-Local Sparse Attention Based Multi-Image Super-Resolution</h1>
+        <p><b><b>Haider Ali</b>, Maxim Dolgich, Ulrich Schwanecke, Adrian Ulges, Faisal Shafait</b><br>
+        NUST, SEECS, Islamabad, Pakistan &middot; RheinMain University of Applied Sciences, Wiesbaden, Germany<br>
+        <i>IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2026, Washington, D.C., USA (Poster), pp. 2383&ndash;2388</i></p>
+        <p>[<a href="NLSA_MISR_IGARSS2026.pdf">PDF</a>] [<a href="https://doi.org/10.1109/IGARSS60577.2026.11731065">DOI</a>] [<a href="https://github.com/Ali12114/NLSA-MISR">Code</a>]</p>
+        <h2>Abstract</h2>
+        <p>Modern satellites often revisit the same region with high frequency, providing an opportunity for the use of Multi-Image Super Resolution (MISR) in remote sensing. However, temporal variations and weak inter-image correlations make effective utilization of multiple low-resolution observations challenging. While recent transformer-based methods improve multi-image fusion, attention mechanisms are typically applied only during fusion or reconstruction, leading to information loss during feature encoding. We propose an enhanced transformer-based MISR architecture that integrates non-local sparse attention (NLSA) into the encoding stage to capture long-range spatial dependencies across images. We show that explicitly capturing spatial dependencies through NLSA during the encoding stage makes random shuffling of the image sequence during training effective, leading to improved utilization of multi-image information and overall model performance. We also introduce a novel combination of loss functions that increases texture preservation and structural integrity. Experiments on the PROBA-V Kelvin dataset demonstrate that the proposed method outperforms state-of-the-art approaches.</p>
+        <p><img src="../assets/img/architecture NLSA.png" style="max-width:100%;" alt="Architecture figure"></p>
+        <h2>BibTeX</h2>
+        <pre style="white-space:pre-wrap;font-size:12px;">@inproceedings{ali2026nlsa,
+  author    = {Ali, Haider and Dolgich, Maxim and Schwanecke, Ulrich and Ulges, Adrian and Shafait, Faisal},
+  title     = {Non-Local Sparse Attention Based Multi-Image Super-Resolution},
+  booktitle = {IGARSS 2026 - 2026 IEEE International Geoscience and Remote Sensing Symposium},
+  year      = {2026},
+  pages     = {2383--2388},
+  doi       = {10.1109/IGARSS60577.2026.11731065}
+}</pre>
+        <p style="color:gray;font-size:13px;">The PDF is the authors' manuscript. &copy; 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. The definitive version is available through the DOI link above.</p>
+    </div>
+</body>
+</html>

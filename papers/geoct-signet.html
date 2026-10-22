@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>GeoCT-SigNet: A Geometry-Aware Hybrid CNN-Transformer Network for Offline Signature Verification - Haider Ali</title>
+    <meta name="description" content="Paper under review on offline signature verification with a contourlet-based hybrid CNN-Transformer network.">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/pygment_trac.css">
+</head>
+<body>
+    <div class="wrapper">
+        <p><a href="../index.html">&larr; Haider Ali</a></p>
+        <h1 style="font-size:28px;">GeoCT-SigNet: A Geometry-Aware Hybrid CNN&ndash;Transformer Network for Offline Signature Verification</h1>
+        <p><b><b>Haider Ali</b>, Momina Moetesum, Adnan Ul-Hasan, Faisal Shafait, M. Imran Malik</b><br>
+        School of Electrical Engineering and Computer Science (SEECS), NUST, Islamabad, Pakistan &middot; Deep Learning Laboratory, National Center of Artificial Intelligence (NCAI), Islamabad<br>
+        <i>Under review, IEEE Access, 2026 (preprint)</i></p>
+        <p>[<a href="GeoCT_SigNet_preprint.pdf">Preprint PDF</a>] [<a href="https://github.com/Ali12114/GeoCT-SigNet">Code</a>]</p>
+        <h2>Abstract</h2>
+        <p>Offline handwritten signature verification (OHSV) requires simultaneous modeling of fine stroke-level geometry and high-level semantic structure, yet neither convolutional nor transformer-based architectures achieve this independently. Recent hybrid CNN&ndash;Transformer models improve local-global integration but remain insensitive to high-frequency contour details critical for distinguishing genuine signatures from skilled forgeries. We propose GeoCT-SigNet, which embeds the contourlet transform (a multi-scale, multi-directional image decomposition) into a differentiable Siamese pipeline. A Frequency-Aware Feature Extraction (FAFE) block refines low- and high-frequency subbands independently, fusing them with deep semantic features via bidirectional cross-attention and a depth-wise feed-forward module. GeoCT-SigNet achieves state-of-the-art EER on BHSig-B (5.80%), BHSig-H (6.84%), and competitive performance on UTSig (18.99%). At the real-forgery operating threshold, it attains 0% FAR against CGAN-generated forgeries and &le;3.6% against VAE-generated forgeries, substantially outperforming CNN and transformer baselines. At only 4.13M parameters, it is 11&times; more compact than the closest hybrid baseline, establishing contourlet-based geometric priors as a promising direction for parameter-efficient, robust OHSV.</p>
+        <p><img src="../assets/img/GeoCT.png" style="max-width:100%;" alt="Architecture figure"></p>
+        <h2>BibTeX</h2>
+        <pre style="white-space:pre-wrap;font-size:12px;">@article{ali2026geoctsignet,
+  author  = {Ali, Haider and Moetesum, Momina and Ul-Hasan, Adnan and Shafait, Faisal and Malik, M. Imran},
+  title   = {{GeoCT-SigNet}: A Geometry-Aware Hybrid {CNN}--Transformer Network for Offline Signature Verification},
+  journal = {Under review, IEEE Access},
+  year    = {2026}
+}</pre>
+        <p style="color:gray;font-size:13px;">This is a preprint of a manuscript under review. It has not been accepted.</p>
+    </div>
+</body>
+</html>
